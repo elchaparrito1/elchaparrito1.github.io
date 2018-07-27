@@ -1,0 +1,127 @@
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 5px;
+}
+
+hr {
+    background-color: #cccccc;
+    border: none;
+    color: #cccccc;
+    height: 3px;
+}
+
+
+.wrapper {
+    margin: 20px auto 0;
+    width: 960px;
+    margin-top: 0;
+    margin-bottom: -24px;
+    }
+
+  .header {
+    overflow: hidden;
+    }
+
+  .header h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    padding: 20px;
+
+    }
+
+  .header ul {
+    padding: 0;
+    text-align: right;
+    }
+
+  .header li {
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin: 1em .5em;
+    text-align: left;
+    padding: 20px;
+    }
+
+.about {
+    color: #777777;
+    text-decoration-line: none;
+
+}
+
+.portfolio {
+    color: #777777;
+    text-decoration-line: none;
+}
+
+.contact {
+    color: #777777;
+    text-decoration-line: none;
+}
+
+.about:hover, .portfolio:hover, .contact:hover {
+    color: rgb(63, 170, 197);
+}
+
+.about:active, .portfolio:active, .contact:active {
+    color: rgb(207, 181, 30);
+}
+
+.aboutMe {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.box {
+    background-color: #ffffff;
+    border-top: solid #cccccc;
+    clear: both;
+    content: "";
+    display: block;
+    min-height: 100%;
+}
+
+.container2 {
+    background-color:white;
+    border: solid thin #dddddd;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    width: 960px;
+    /* clear: both; */
+}
+
+.myPhoto {
+    float: left;
+    height: 250px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 350px;
+}
+
+#foot {
+    background-color: #4aaaa5;
+    height: 8px;
+    z-index: 1;
+}
+
+#copyright {
+    background-color: #666666;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 60px;
+    /* Centering text properties */
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px; 
+}
