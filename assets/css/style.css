@@ -1,3 +1,5 @@
+
+
 html, body {
     height: 100%;
 }
@@ -96,7 +98,7 @@ button:active {
     color: rgb(207, 181, 30);
 }
 
-.aboutMe, .contactMe {
+.aboutMe, .contactMe, .portMe {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -127,6 +129,17 @@ button:active {
     /* clear: both; */
 }
 
+.container3 {
+    background-color:white;
+    border: solid thin #dddddd;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    padding-bottom: 250px;
+    width: 960px;
+    /* clear: both; */
+}
+
 .myPhoto {
     float: left;
     height: 250px;
@@ -134,6 +147,79 @@ button:active {
     margin-right: 15px;
     margin-top: 15px;
     width: 350px;
+}
+
+.ipad, .stereo {
+    width: 250px;
+    height: 200px;
+    /* display: inline-block;*/
+    padding: 5px;
+}
+
+.earbuds, .desk {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+
+.ipad, .stereo {
+    float: left;
+}
+            
+.earbuds {
+    float: left;
+    clear: both;
+    content: "";
+    display: block;
+}
+            
+.desk {
+    float: left;
+}
+            
+.led {
+    clear: both;
+    content: "";
+    display: block;
+}
+            
+.ipad, .stereo, .earbuds, .desk, .led {
+    padding: 10px;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    /* image-rendering: pixelated; */
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.scan {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    padding: 5px;
+}
+
+.text-box, .text-box2, .text-box3, .text-box4, .text-box5 {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    padding: 5px;
+}
+
+h2 {
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 #foot {
